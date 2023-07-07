@@ -1,0 +1,275 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1254.66666666667,5342.66666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Activities.System</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Management.Automation</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence - B7" sap:VirtualizedContainerService.HintSize="1264.66666666667,5006" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="hostname">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">172.20.10.2</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Default="shady" Name="username" />
+      <Variable x:TypeArguments="x:String" Name="password" />
+      <Variable x:TypeArguments="x:String" Default="/Users/shady/sftp/" Name="sourcePath" />
+      <Variable x:TypeArguments="x:String" Default="C:\Users\Nidhi\OneDrive\Desktop\sftp" Name="destinationPath" />
+      <Variable x:TypeArguments="x:String" Name="choice" />
+      <Variable x:TypeArguments="x:String" Name="ch" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="1202.66666666667,297.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_10" IsPassword="False" Label="Override the the default settings" OptionsString="Override;Automatic" Title="configuration settings - B7">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[ch]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <If Condition="[ch.Equals(&quot;Override&quot;)]" DisplayName="If - B7" sap:VirtualizedContainerService.HintSize="1202.66666666667,1114.66666666667" sap2010:WorkflowViewState.IdRef="If_2">
+      <If.Then>
+        <Sequence DisplayName="Sequence - B7" sap:VirtualizedContainerService.HintSize="450,920.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="388,243.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_11" IsPassword="False" Label="Please enter your hostname" Title="Hostname - B7">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[hostname]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="388,243.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_12" IsPassword="False" Label="Please enter your username" Title="Enter username - B7">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[username]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="388,243.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_13" IsPassword="False" Label="Please enter your password" Title="Enter Password - B7">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[password]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap:VirtualizedContainerService.HintSize="450,103" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="1202.66666666667,297.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_15" IsPassword="False" Label="Choose" OptionsString="Download;Upload" Title="Get or Put files - B7">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[choice]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <If Condition="[choice.Equals(&quot;Download&quot;)]" DisplayName="If - B7" sap:VirtualizedContainerService.HintSize="1202.66666666667,3066" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Sequence - B7" sap:VirtualizedContainerService.HintSize="548.666666666667,2902" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="filename" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <If Condition="[ch.Equals(&quot;Override&quot;)]" DisplayName="If - B7" sap:VirtualizedContainerService.HintSize="486.666666666667,548" sap2010:WorkflowViewState.IdRef="If_3">
+            <If.Then>
+              <Sequence DisplayName="Sequence - B7" sap:VirtualizedContainerService.HintSize="450,354" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="388,243.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_18" IsPassword="False" Label="Enter the Source path or file name" Title="Source path - B7">
+                  <ui:InputDialog.Result>
+                    <OutArgument x:TypeArguments="x:String">[sourcePath]</OutArgument>
+                  </ui:InputDialog.Result>
+                </ui:InputDialog>
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence sap:VirtualizedContainerService.HintSize="450,104" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - B7" sap:VirtualizedContainerService.HintSize="486.666666666667,243.333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_17" IsPassword="False" Label="Enter the file name you want to get" Title="Enter file name - B7">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[filename]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Windows PowerShell" sap:VirtualizedContainerService.HintSize="486.666666666667,1920" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="012c46e4-9c39-4be3-afd8-08cc54764b23" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do - B7" sap:VirtualizedContainerService.HintSize="450,1626" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;cd &quot; + destinationPath + &quot;[k(Enter)]&quot;]" Version="V3" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;sftp &quot;+username+&quot;@&quot;+hostname+&quot;[k(Enter)]&quot;]" Version="V3" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[password + &quot;[k(Enter)]&quot;]" Version="V3" />
+                  <WriteLine DisplayName="Write Line - B7" sap:VirtualizedContainerService.HintSize="388,63.3333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="User successfull authenticated" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;get &quot; + sourcePath  + &quot;/&quot; +filename+ &quot;[k(Enter)]&quot;]" Version="V3" />
+                  <WriteLine DisplayName="Write Line - B7" sap:VirtualizedContainerService.HintSize="388,63.3333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;Successfully downloaded&quot;+sourcePath]" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="quit[k(Enter)]" Version="V3" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="65, 76, 1752, 966" FilePath="Microsoft.WindowsTerminal_8wekyb3d8bbwe!App" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUaSURBVGhD7ZnXSi1LEIbncRRzzjmnCzGgIl6o+BaCF3olIpjdmLNvIBjAG28Uc875Nersvzg11DSz1qxRN/scWA0/rtXT4furq7tHtcIlXMIlXP5uOTg46Pkt+qomJye/pa6uru+oBwZcwUKVG5QfuUD5UtiAG5QfuUH5UdiAG5QfuUH5kVVTU0NQdXW1Q1VVVQ5VVlY6VFFR4VB5ebmtsrIyh0pLSx0qKSlxqLi42KGioiJbhYWFDhUUFDjEBv6P4Pn5+SwrELwfcC94P+AmfCBwhwEN7gXvB9wLPhi4F3xeXh7LCgYOQIEQwJ8AN+H9gGt424AbONTR0UE7OzustrY2BvuvgEO5ublkaXCdIu3t7fTw8EAfHx/0/v5Ot7e31NrayhBi5KvgXvChgItsAzrHAbC9vc3g0NvbG72+vtL19TWbAADahALvB9wLXoNDOTk5ZAm4wAMIE21tbdngLy8v9Pz8zLq8vKSWlhZuI5Bu4NBPgQeCdxgAvKQFJkSkb25ubPinpyd6fHzktDo7O2MTADGhTXAT/qfAoezsbLIk58UAIomJ0Li5uZkjLuDQ/f093d3d0cnJCT8HBCC9wE3474ALvMOARB8GMDk6ZWZmUmNjI52fn9vg2MxYGeyHo6MjampqYiAAhgLuBR8quG0A4FpiABOhQ0ZGBjU0NHDENfzV1RWvDurxUgUQ9PkquBe8CZ6VlcVyGNAnCgAwKBrDRH19PUdcwC8uLlhYnePjY+rs7OT2JvSfAncYALiWbEaYwITomJ6eTnV1dXR4eGiDYzOfnp7yKuDUSktLYyD0cYP3A27Cm+BIb8jS4BJ9SDYlIDA4OuG9aXR0lIE1PFZgc3OTkpKSuK2GDgU+GHgweNuABhd4MSCpVFtbSyMjIzQ4OMgmsBIAR1rt7+/zsZuSksITAgp9vMBNeD/gEFLbcgMXyUZE/s/NzdHMzAyb6O/vp+HhYdrd3eX3JNwJCQkJPKA28CfBRbYBDa6PQpxAKysrtLq6SgsLC/Tr1y8aGhpiE93d3QwXFxdHqampPDiAxIAJ6hcWgOZ3LexLS4NreEQemxbw6+vrtLa2RouLizQ9PU0TExM0MDDAKSLwGBAAAgp4AcTkmEwLG14LY0C6Du0wrgmvx7ENAFzgAQb45eVlhkf08RkGkEpjY2MOeAwk8BJ1TLq3t0efn5/8Rmu+V+lXE/OCxFG9sbHBaamNmPB4Zgm4CJHH8mOzIupYAQ2PvySgDeCxaTW8CJFHvbyKC7wJrm93fTnKMR0VFWWvigkusg1I2iCyAECKAHxpaYlzX+Al8hoe7c3oY2Id9UDgOurm/RIZGUnJyckOExqeDchmFQOIPoDwO8LU1BTNz8/T7OwsjY+PM3xsbGxAeMl7GEAbM10CgUvUzbslIiKC7xYYEBMiqbMNSPTFABrhjujr66Pe3l5+ruEBaUYeQh1yFe1gXkc9ELiOutwtuGuwAomJiTyWGBBwhwHAmQYAgQaAjo6Opvj4eP5uwpuSUweTYROiH1IO48TExDiEcd0kz/ATKwADYkIkdZbAawOSCjAhSwZwfJe0MQ1InRhAe0yEHAYEIglDboJJU6hHH/QPBG8bALiWpIQAARxQbvDyXSQG0EdM6AkBpAVzIgBD+CzPpJ85DoQ2lgZH9EXahFYwcC0YEBOQrKQoUEQFDDLrRfJcDPRocIEXCayAe8Ej+lpiwK+RYMZEv1eo59//lIVLuIRLuPyVYln/AD0YLfFUaolsAAAAAElFTkSuQmCC" InformativeScreenshot="2846d9313e6da5c55508596166399f4e.png" IsExactTitleEnabled="True" Selector="&lt;wnd app='windowsterminal.exe' appid='Microsoft.WindowsTerminal_8wekyb3d8bbwe!App' title='Windows PowerShell' /&gt;" Title="Windows PowerShell" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap:VirtualizedContainerService.HintSize="608,2446" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Sequence - B7" sap:VirtualizedContainerService.HintSize="546,2335.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Assign - B7" sap:VirtualizedContainerService.HintSize="484,84.6666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[destinationPath]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[sourcePath]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:SelectFile DisplayName="Browse For File - B7" Filter="All files (*.*)|*.*" sap:VirtualizedContainerService.HintSize="484,140" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[sourcePath]" />
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Windows PowerShell" sap:VirtualizedContainerService.HintSize="484,1920" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="012c46e4-9c39-4be3-afd8-08cc54764b23" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do - B7" sap:VirtualizedContainerService.HintSize="450,1626" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_26" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;sftp &quot;+username+&quot;@&quot;+hostname+&quot;[k(Enter)]&quot;]" Version="V3" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_27" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[password + &quot;[k(Enter)]&quot;]" Version="V3" />
+                    <WriteLine DisplayName="Write Line - B7" sap:VirtualizedContainerService.HintSize="388,63.3333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="User successfull authenticated" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_28" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;cd &quot;+destinationPath + &quot;[k(Enter)]&quot;]" Version="V3" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_29" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="[&quot;put &quot;+sourcePath + &quot;[k(Enter)]&quot;]" Version="V3" />
+                    <WriteLine DisplayName="Write Line - B7" sap:VirtualizedContainerService.HintSize="388,63.3333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[&quot;Successfully uploaded&quot;+sourcePath]" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - B7" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="388,228.666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_31" ScopeIdentifier="012c46e4-9c39-4be3-afd8-08cc54764b23" Text="exit[k(Enter)]" Version="V3" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="65, 76, 1752, 966" FilePath="Microsoft.WindowsTerminal_8wekyb3d8bbwe!App" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUaSURBVGhD7ZnXSi1LEIbncRRzzjmnCzGgIl6o+BaCF3olIpjdmLNvIBjAG28Uc875Nersvzg11DSz1qxRN/scWA0/rtXT4furq7tHtcIlXMIlXP5uOTg46Pkt+qomJye/pa6uru+oBwZcwUKVG5QfuUD5UtiAG5QfuUH5UdiAG5QfuUH5kVVTU0NQdXW1Q1VVVQ5VVlY6VFFR4VB5ebmtsrIyh0pLSx0qKSlxqLi42KGioiJbhYWFDhUUFDjEBv6P4Pn5+SwrELwfcC94P+AmfCBwhwEN7gXvB9wLPhi4F3xeXh7LCgYOQIEQwJ8AN+H9gGt424AbONTR0UE7OzustrY2BvuvgEO5ublkaXCdIu3t7fTw8EAfHx/0/v5Ot7e31NrayhBi5KvgXvChgItsAzrHAbC9vc3g0NvbG72+vtL19TWbAADahALvB9wLXoNDOTk5ZAm4wAMIE21tbdngLy8v9Pz8zLq8vKSWlhZuI5Bu4NBPgQeCdxgAvKQFJkSkb25ubPinpyd6fHzktDo7O2MTADGhTXAT/qfAoezsbLIk58UAIomJ0Li5uZkjLuDQ/f093d3d0cnJCT8HBCC9wE3474ALvMOARB8GMDk6ZWZmUmNjI52fn9vg2MxYGeyHo6MjampqYiAAhgLuBR8quG0A4FpiABOhQ0ZGBjU0NHDENfzV1RWvDurxUgUQ9PkquBe8CZ6VlcVyGNAnCgAwKBrDRH19PUdcwC8uLlhYnePjY+rs7OT2JvSfAncYALiWbEaYwITomJ6eTnV1dXR4eGiDYzOfnp7yKuDUSktLYyD0cYP3A27Cm+BIb8jS4BJ9SDYlIDA4OuG9aXR0lIE1PFZgc3OTkpKSuK2GDgU+GHgweNuABhd4MSCpVFtbSyMjIzQ4OMgmsBIAR1rt7+/zsZuSksITAgp9vMBNeD/gEFLbcgMXyUZE/s/NzdHMzAyb6O/vp+HhYdrd3eX3JNwJCQkJPKA28CfBRbYBDa6PQpxAKysrtLq6SgsLC/Tr1y8aGhpiE93d3QwXFxdHqampPDiAxIAJ6hcWgOZ3LexLS4NreEQemxbw6+vrtLa2RouLizQ9PU0TExM0MDDAKSLwGBAAAgp4AcTkmEwLG14LY0C6Du0wrgmvx7ENAFzgAQb45eVlhkf08RkGkEpjY2MOeAwk8BJ1TLq3t0efn5/8Rmu+V+lXE/OCxFG9sbHBaamNmPB4Zgm4CJHH8mOzIupYAQ2PvySgDeCxaTW8CJFHvbyKC7wJrm93fTnKMR0VFWWvigkusg1I2iCyAECKAHxpaYlzX+Al8hoe7c3oY2Id9UDgOurm/RIZGUnJyckOExqeDchmFQOIPoDwO8LU1BTNz8/T7OwsjY+PM3xsbGxAeMl7GEAbM10CgUvUzbslIiKC7xYYEBMiqbMNSPTFABrhjujr66Pe3l5+ruEBaUYeQh1yFe1gXkc9ELiOutwtuGuwAomJiTyWGBBwhwHAmQYAgQaAjo6Opvj4eP5uwpuSUweTYROiH1IO48TExDiEcd0kz/ATKwADYkIkdZbAawOSCjAhSwZwfJe0MQ1InRhAe0yEHAYEIglDboJJU6hHH/QPBG8bALiWpIQAARxQbvDyXSQG0EdM6AkBpAVzIgBD+CzPpJ85DoQ2lgZH9EXahFYwcC0YEBOQrKQoUEQFDDLrRfJcDPRocIEXCayAe8Ej+lpiwK+RYMZEv1eo59//lIVLuIRLuPyVYln/AD0YLfFUaolsAAAAAElFTkSuQmCC" InformativeScreenshot="3e0229479ccb74af0dc8fa49a2b42a90.png" IsExactTitleEnabled="True" Selector="&lt;wnd app='windowsterminal.exe' appid='Microsoft.WindowsTerminal_8wekyb3d8bbwe!App' title='Windows PowerShell' /&gt;" Title="Windows PowerShell" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
